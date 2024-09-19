@@ -3,29 +3,29 @@
 In a typical Node.js project, it’s best practice to separate the code into different files and folders to make it more organized, maintainable, and scalable. Here's a common folder structure:
 
 <hr>
-project-root/
+project-root/ <br>
 │
-├── config/               # Configuration (database connections, environment variables, etc.)
-│   └── db.js             # Database connection setup
+├── config/               # Configuration (database connections, environment variables, etc.) <br>
+│   └── db.js             # Database connection setup <br>
 │
-├── controllers/          # Business logic (handles requests and responses)
-│   └── userController.js # Contains user-related request handling
+├── controllers/          # Business logic (handles requests and responses)<br>
+│   └── userController.js # Contains user-related request handling<br>
 │
-├── models/               # Database schemas (structure of your MongoDB collections)
-│   └── userModel.js      # Contains schema and model for User
+├── models/               # Database schemas (structure of your MongoDB collections)<br>
+│   └── userModel.js      # Contains schema and model for User <br>
 │
-├── routes/               # API routes (organizes route logic)
-│   └── userRoutes.js     # Contains user-related routes
+├── routes/               # API routes (organizes route logic) <br>
+│   └── userRoutes.js     # Contains user-related routes<br>
 │
-├── services/             # Helper functions, like sending emails, handling external APIs, etc.
-│   └── emailService.js   # Handles email sending logic
+├── services/             # Helper functions, like sending emails, handling external APIs, etc. <br>
+│   └── emailService.js   # Handles email sending logic <br>
 │
-├── middlewares/          # Middleware functions (like auth, logging, etc.)
-│   └── authMiddleware.js # Auth-related middleware
+├── middlewares/          # Middleware functions (like auth, logging, etc.) <br>
+│   └── authMiddleware.js # Auth-related middleware <br>
 │
-├── .env                  # Environment variables
-├── server.js             # Main entry point of your application
-└── package.json          # Project dependencies and scripts
+├── .env                  # Environment variables <br>
+├── server.js             # Main entry point of your application <br>
+└── package.json          # Project dependencies and scripts <br>
 
 
 <hr>
