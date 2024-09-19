@@ -7,21 +7,33 @@ project-root/ <br>
 │
 ├── config/               # Configuration (database connections, environment variables, etc.) <br>
 │   └── db.js             # Database connection setup <br>
+
+<br>
 │
 ├── controllers/          # Business logic (handles requests and responses)<br>
 │   └── userController.js # Contains user-related request handling<br>
+
+<br>
 │
 ├── models/               # Database schemas (structure of your MongoDB collections)<br>
 │   └── userModel.js      # Contains schema and model for User <br>
+
+<br>
 │
 ├── routes/               # API routes (organizes route logic) <br>
 │   └── userRoutes.js     # Contains user-related routes<br>
+
+<br>
 │
 ├── services/             # Helper functions, like sending emails, handling external APIs, etc. <br>
 │   └── emailService.js   # Handles email sending logic <br>
+
+<br>
 │
 ├── middlewares/          # Middleware functions (like auth, logging, etc.) <br>
 │   └── authMiddleware.js # Auth-related middleware <br>
+
+<br>
 │
 ├── .env                  # Environment variables <br>
 ├── server.js             # Main entry point of your application <br>
